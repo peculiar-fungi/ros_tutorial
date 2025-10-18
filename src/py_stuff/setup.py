@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'service = py_stuff.service:main',
+            'client = py_stuff.client:main'
         ],
     },
 )
